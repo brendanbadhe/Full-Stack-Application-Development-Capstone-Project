@@ -102,3 +102,24 @@ A national car dealership with branches across the United States wants a central
 
 Screenshots of the application and its features are available in the [Images folder](Images/).
 These images illustrate key pages, user flows, and deployment steps for the project.
+
+## Enhancements
+
+As part of the ongoing development of the Car Dealerships Review Portal, the following enhancements have been implemented:
+
+### Part 1: Front-end Enhancement
+
+- Transformed the "States" dropdown on the Dealerships page into a searchable textbox, allowing users to filter dealerships by entering search strings.
+- Enhanced the color scheme of the Navbar and Dealerships button on the home page, as well as the colors of the Review panel and review icons on the Dealerships Review page.
+- Fine-tuned visual elements of the Dealer Review panel, including font size and alignment adjustments.
+
+### Part 2: Car Inventory Back-end Service
+
+- Established a new back-end microservice for car inventory details using MongoDB and Node.js.
+- Integrated the car inventory microservice with the Django app's back end and verified successful server startup.
+
+### Part 3: Front-end Development for Car Inventory Service
+
+- Developed and integrated the front-end component with the back-end car inventory microservice.
+- Added options to select cars by Make, Model, Year, Mileage, and Price.
+- Conducted thorough testing of the Django application with the integrated car inventory service.
